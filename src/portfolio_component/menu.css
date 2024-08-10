@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: cursive;
+}
+.unorder-list {
+  display: flex;
+  gap: 88px;
+  justify-content: center;
+  background-color: chocolate;
+  height: 50px;
+  align-items: center;
+}
+li {
+  list-style: none;
+}
+li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  color: red;
+}
